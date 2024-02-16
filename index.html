@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magspot-Blogger Template</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-[#f5f6f7] m-[0px] p-[0px] flex flex-col items-center justify-center gap-[2vw] relative -z-10 top-[0px]">
+    <nav class=" flex flex-row bg-white w-[100vw] h-[12vh] justify-center items-center gap-[3vw] max-sm:gap-[15vw]  max-sm:justify-between max-sm:p-4 max-sm:h-[9vh]  max-lg:h-[7vh]  max-lg:justify-between max-lg:p-4 static">
+        <div  class="flex flex-row items-center justify-center gap-[0vw] max-sm:flex-col max-lg:flex-col max-lg:gap-[10px]">
+            <div class="flex flex-row-reverse items-center justify-center gap-[1vh]"> 
+            <img src="logo.png" class="w-[13vw] object-cover cursor-pointer max-sm:w-[18vh] max-lg:w-[14vh] ">
+             <i id="hamb" class="fa-solid fa-bars hidden max-sm:flex max-sm:text-[2.5vh] max-lg:flex max-lg:text-[2vh]"></i>
+            </div>
+             <div class="flex flex-col items-center justify-center max-sm:mt-[0vh] max-sm:w-auto max-sm:h-auto">
+                
+                <ul id="list" class="relative z-10 flex flex-row items-center justify-center gap-[2vw] font-semibold  max-sm:flex-col max-sm:bg-white border border-black relative z-10 max-sm:w-[20vh] max-sm:h-[40vh] max-sm:mt-[0vh] max-sm:hidden max-lg:hidden">
+                    <li class="hover:text-[#fd5634] cursor-pointer">HOME</li>
+                    <li class="hover:text-[#fd5634] cursor-pointer">FEATURES</li>
+                    <li class="hover:text-[#fd5634] cursor-pointer">MEGA MENU</li>
+                    <li class="hover:text-[#fd5634] cursor-pointer">MEGA TABS</li>
+                    <li class="hover:text-[#fd5634] cursor-pointer">TIPOGRAPHY</li>
+                    <li class="hover:text-[#fd5634] cursor-pointer">SHORTCODES</li>
+                </ul>
+                
+            </div>
+        </div>
+        
+  
+    <button class="flex items-center justify-center  hover:text-[red] bg-[#f5f6f7] w-[3vw] h-[6vh] ml-[12vw] max-sm:w-[10vw] max-sm:h-[5vh] max-lg:w-[7vw] max-lg:h-[4vh]"><i class="fa fa-search"></i></button>
+    </nav>
+
+    <div class="flex flex-row max-sm:justify-center items-center p-[1vw] ml-[0vw] gap-[1vw] bg-white w-[80vw] h-[7vh]  max-sm:w-[99vw] max-lg:w-[96vw] max-lg:h-[4vh]">
+        <li class="text-[#fd5634] font-semibold ">TRENDING</li>
+        <p class="max-sm:text-[13px]">
+            11 of Best Laptops Evaluated Based on Budget
+        </p>
+    </div>
+
+
+    <div id="slider" class="flex flex-row items-center justify-center bg-white w-[80vw] h-[80vh] flex-wrap gap-[2px] relative top-[0px] -z-10 max-sm:w-[99vw] max-sm:h-[50vh] overflow-auto max-lg:w-[96vw] max-lg:h-[41vh]">
+
+    <div  class=" flex flex-row gap-[2px] max-sm:flex-col w-auto h-auto ">
+        
+            <div>
+                <img src="img1.jpg " class=" img1 w-[38vw] h-[72.3vh] object-cover max-sm:w-[100vw] max-sm:h-[32vh] max-sm:ml-[49.5vh] max-lg:h-[38vh] max-lg:w-[46vw]">
+            </div>
+           
+            <div  class="gap-[2px] flex flex-col max-sm:flex-row  max-sm:w-[300vw] ">
+
+                <div class="gap-[2px]">
+                    <img src="img2.jpg" class="img1 w-[38.1vw] h-[37vh] object-fit max-sm:w-[65vw] max-sm:h-[18vh] max-sm:ml-[49.5vh] max-lg:h-[20vh] max-lg:w-[46vw]">
+                </div>
+
+                <div class="flex flex-column gap-[2px]">
+                    <div><img src="img3.jpg" class="w-[18.5vw] h-[35vh] object-fit max-sm:w-[65vw] max-sm:h-[18vh] max-lg:h-[17.8vh] max-lg:w-[23vw]"></div>
+                    <div><img src="img4.jpg" class="w-[19.5vw] h-[35vh] object-fit max-sm:w-[65vw] max-sm:h-[18vh] max-lg:h-[17.8vh] max-lg:w-[23vw]"></div>
+                    
+                </div>
+            </div>
+        
+           
+    </div>
+    </div>
+
+<div class=" flex flex-row max-sm:flex-col gap-[1vw] max-sm:w-[100vw] max-lg:flex-col max-lg:w-[96vw]">
+    
+<div class="h-[500vh] w-[55.2vw]  mt-[2vw] flex flex-col max-sm:w-[100vw] max-sm:items-center max-sm:justify-center max-sm:h-auto max-sm:gap-[0vh] max-lg:w-[96vw] max-lg:mt-0 max-lg:h-[280vh] " id="left ">
+
+    <div class="flex flex-col flex-wrap border-black">
+    <div class="wn bg-white w-[55vw] h-[75vh] flex flex-col max-sm:w-[92vw]  max-sm:h-[85vh] items-center justify-center  gap-[1vw] max-lg:w-[96vw] max-lg:h-[40vh] ">
+
+        <div class="flex items-center justify-between border-b border-gray-200 py-2 w-[50vw] max-sm:w-[80vw] max-lg:w-[90vw]  ">
+            <h2 class="text-[1.2vw] font-bold text-gray-900 max-sm:text-[2vh] max-lg:text-[1.5vh]">WORLD NEWS</h2>
+            <a href="#" class="text-sm font-medium text-gray-600 hover:underline hover:text-[#fd5634]">View all</a>
+          </div>
+          
+        <div class="flex flex-row items-center justify-center gap-[2vw] flex-wrap">
+           
+        <div id="pg2img1" class="w-[24vw] h-[60vh] max-sm:w-[80vw] max-sm:h-[30vh] max-sm:mt-[1vh]  max-lg:w-auto max-lg:h-auto">
+            <img src="pg2img1.jpg" class="w-[33vw] h-[60vh] object-cover max-sm:w-[80vw] max-sm:h-[30vh] max-lg:w-[10vw] max-lg:h-[32vh] max-lg:w-[44vw]">
+        </div>
+
+
+        <div class=" flex flex-col items-center justify-center  h-[60vh] gap-[2.1vw] w-[25vw] max-sm:h-[45vh] max-sm:w-[80vw]  max-lg:h-[32vh] max-lg:w-[44vw] max-lg:gap-[1.7vw]">
+
+            <div class="flex flex-row gap-[10px]">
+                
+                <img src="pg2img2.jpg" class="w-[11vw] h-[11vh] gap-[10px]  max-sm:h-[10vh] max-sm:w-[30vw] max-lg:w-[12vw] max-lg:h-[7vh] ">
+
+            <div class="max-sm:[2px]">
+                <div class="hover:text-[#fd5634] cursor-pointer max-sm:[2px]">
+                   <strong> How We Know Disinfectants Should Kill the Covid-19 </strong>
+                </div>
+                <span class="text-gray-400">July 31, 2021</span>
+            </div>
+            </div>
+
+            <div class="flex flex-row gap-[10px]">
+                <img src="pg2img3.jpg" class="w-[9.5vw] h-[11vh]  max-sm:h-[10vh] max-sm:w-[30vw] max-lg:w-[12vw] max-lg:h-[7vh]">
+                
+            <div>
+                <div class="hover:text-[#fd5634] cursor-pointer max-sm:[2px]">
+                    <strong>Car Safety Tips to Protect you and your Family</strong>
+                </div>
+                <span class="text-gray-400">July 31, 2021</span>
+            </div>
+            </div>
+
+
+            <div class="flex flex-row gap-[10px] ">
+                <img src="pg2img4.jpg" class="w-[10.3vw] h-[11vh] max-sm:h-[10vh] max-sm:w-[30vw] max-lg:w-[12vw] max-lg:h-[7vh]">
+                <div>
+                    <div  class="hover:text-[#fd5634] cursor-pointer max-sm:[2px]">
+                        <strong>Know-How to Protect Your Health When Going Out</strong>
+                    </div>
+                    <span class="text-gray-400">July 31, 2021</span>
+                </div>
+            </div>
+
+
+            <div class="flex flex-row gap-[10px]">
+                 <img src="pg2img5.jpg" class="w-[11vw] h-[11vh] max-sm:h-[10vh] max-sm:w-[30vw] max-lg:w-[12vw] max-lg:h-[7vh]">
+                 <div>
+                    <div  class="hover:text-[#fd5634] cursor-pointer max-sm:[2px]">
+                        <strong>Tracking Public and Private Response to the COVID-19</strong>
+                    </div>
+                    <span class="text-gray-400">July 31, 2021</span>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    
+    </div>
+
+    <div class="bg-white w-[55vw] h-[85vh]  mt-[2vw] flex flex-col items-center justify-center max-sm:w-[92vw] max-sm:h-[100vh] max-lg:w-[96vw] max-lg:h-[50vh] " >
+
+        <div class="flex items-center justify-between border-b border-gray-200 py-2 w-[50vw] max-sm:w-[80vw]  max-lg:w-[90vw] max-lg:mb-[3vh]">
+            <h2 class="text-[1.2vw] font-bold text-gray-900 max-sm:text-[2vh] max-lg:text-[1.5vh]">REVIEWS</h2>
+            <a href="#" class="text-sm font-medium text-gray-600 hover:underline hover:text-[#fd5634]">View all</a>
+          </div>
+          
+
+        <div class="flex flex-col items-center justify-center max-sm:flex-row max-lg:h-auto max-lg:w-[90vw] ">
+        <div class=" flex flex-row items-center justify-center gap-[2vw] mt-[0vw] max-sm:flex-wrap max-lg:h-[40vh] max-lg:h-auto max-lg:w-auto">
+            <div class="w-[50vw] h-[35vh]   flex flex-row max-sm:flex-wrap gap-[2vw]  max-sm:w-[40vw] max-sm:h-[90vh] max-sm:mb-[0vw] items-center justify-center  max-lg:h-[20vh] max-lg:w-[90vw] ">
+                <div class="">
+                    <img src="pg3img1.jpg" class="w-[15.5vw] h-[20vh] object-fit max-sm:w-[37vw] max-sm:h-[15vh] max-lg:w-[30vw] max-lg:h-[14vh] ">
+                    <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] max-sm:w-[30vw] max-lg:w-auto">
+                        <strong> The Best Xbox 360 Co-Op Offline Split-Screen Games </strong>
+                     </div>
+                     <span class="text-gray-400">July 31, 2021</span>
+                 </div>
+                 <div>
+                    <img src="pgimg2.jpg" class="w-[15.5vw] h-[20vh] object-fit max-sm:w-[37vw] max-sm:h-[15vh] max-lg:w-[30vw] max-lg:h-[14vh]">
+                    <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] max-sm:w-[30vw] max-lg:w-auto">
+                        <strong> Great Local Multiplayer Games to Play on PS5 </strong>
+                     </div>
+                     <span class="text-gray-400">July 31, 2021</span>
+                 </div>
+                 <div>
+                    <img src="pg3img3.jpg" class="w-[15.5vw] h-[20vh] object-fit  max-sm:w-[37vw] max-sm:h-[15vh] max-lg:w-[30vw] max-lg:h-[14vh]">
+                    <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] max-sm:w-[30vw] max-lg:w-auto">
+                        <strong> How to Equip Your Studio Like the Top Tech </strong>
+                     </div>
+                     <span class="text-gray-400">July 31, 2021</span>
+                 </div>
+                </div>
+            </div>
+            <div class="  w-[50vw] h-[35vh] max-sm:h-[45vh] flex flex-row gap-[2vw] max-sm:flex-wrap  max-sm:w-[40vw] max-sm:h-[90vh] items-center justify-center max-lg:h-[20vh] max-lg:w-[90vw]">
+                <div class="flex flex-col">
+                    <img src="pg3img4.jpg" class="w-[15.5vw] h-[20vh] object-fit  max-sm:w-[37vw] max-sm:h-[15vh] max-lg:w-[30vw] max-lg:h-[14vh]">
+                    <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] max-sm:w-[30vw]  max-lg:w-auto">
+                        <strong> The Best Wired and Wireless Gaming Headset </strong>
+                     </div>
+                     <span class="text-gray-400">July 31, 2021</span>
+                 </div>
+                 <div>
+                    <img src="pg3img5.jpg" class="w-[15.5vw] h-[20vh] object-fit  max-sm:w-[37vw] max-sm:h-[15vh] max-lg:w-[30vw] max-lg:h-[14vh]" >
+                    <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] max-sm:w-[30vw] max-lg:w-auto ">
+                        <strong> Lessons Learned Selling Cheap Electronics </strong>
+                     </div>
+                     <span class="text-gray-400">July 31, 2021</span>
+                 </div>
+                 <div>
+                    <img src="pg3img6.jpg" class="w-[15.5vw] h-[20vh] object-fit  max-sm:w-[37vw] max-sm:h-[15vh] max-lg:w-[30vw] max-lg:h-[14vh]">
+                    <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] max-sm:w-[30vw] max-lg:w-auto">
+                        <strong>13 PlayStation 5 Tips to Get the Most Out</strong>
+                     </div>
+                     <span class="text-gray-400">July 31, 2021</span>
+                 </div>
+            </div>
+        </div>
+        </div>
+       </div>
+
+        <div class=" w-[55vw] h-[94vh] mt-[2vw] flex flex-row gap-[3vw] max-sm:flex-wrap max-sm:w-[92vw] max-lg:w-[96vw] max-lg:h-[50vh]">
+
+            
+            <div class=" bg-white w-[27vw] h-[95vh] flex flex-col items-center justify-center gap-[2vw] max-sm:w-[92vw] max-sm:h-[75vh] max-lg:w-[48vw] max-lg:h-[50vh]  ">
+                <div class="flex items-center justify-between border-b border-gray-200 py-3 w-[23vw] max-sm:w-[80vw]  max-lg:w-[42vw]">
+                    <h2 class="text-[1.2vw] font-bold text-gray-900 max-sm:text-[2vh] max-lg:text-[1.5vh]">GADGETS</h2>
+                    <a href="#" class="text-sm font-medium text-gray-600 hover:underline hover:text-[#fd5634]">View all</a>
+                  </div>
+               
+                <div id="pg4img1" class="w-[23vw] h-[30vh] text-center max-sm:w-[80vw] max-sm:h-[25vh] max-lg:w-[42vw]  max-lg:h-[15vh]">
+                    <div class=" text-center mt-[11vh] ml-[1vw] w-[6vw] text-white bg-[#C00] max-sm:w-[20vw]  max-lg:mt-[5vh]  max-lg:w-[7vh]">GADGETS</div>
+                    <div class="text-white flex flex-col  flex items-center justify-center ">
+                         <strong>6 Wealth Building Alternatives Without Buying Stocks</strong> 
+                         <span>by John Doe-July 31, 2021 </span>
+                    </div>
+                </div>
+
+                <div class="w-[23vw] h-[45vh]  flex flex-col gap-[2vw]  max-sm:w-[80vw] max-sm:h-[35vh]  max-lg:w-[42vw]  max-lg:h-[26vh]">
+                    <div class="flex flex-row gap-[1vw]  max-sm:w-[80vw] ">
+                        <img src="pg4img2.jpg" class="w-[10vw] h-[12vh] object-fit max-sm:w-[32vw] max-sm:h-[11vh] max-lg:w-[15vw] max-lg:h-[7vh]">
+                        <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] flex flex-col max-sm:w-[80vw] max-lg:w-auto">
+                            <strong>13 PlayStation 5 Tips to Get the Most Out</strong>
+                            <span class="text-gray-400">July 31, 2021</span>
+                         </div>
+                     </div>
+                     <div class="flex flex-row gap-[1vw] max-sm:w-[80vw]">
+                        <img src="pg4img3.jpg" class="w-[10vw] h-[12vh] object-fit max-sm:w-[32vw] max-sm:h-[11vh] max-lg:w-[15vw] max-lg:h-[7vh]">
+                        <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] flex flex-col max-sm:w-[80vw] max-lg:w-auto">
+                            <strong>13 PlayStation 5 Tips to Get the Most Out</strong>
+                            <span class="text-gray-400">July 31, 2021</span>
+                         </div>
+                       
+                     </div>
+                     <div class="flex flex-row gap-[1vw] max-sm:w-[80vw]">
+                        <img src="pg4img4.jpg" class="w-[10vw] h-[12vh] object-fit max-sm:w-[32vw] max-sm:h-[11vh] max-lg:w-[15vw] max-lg:h-[7vh]">
+                        <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] flex flex-col max-sm:w-[80vw] max-lg:w-auto">
+                            <strong>13 PlayStation 5 Tips to Get the Most Out</strong>
+                            <span class="text-gray-400">July 31, 2021</span>
+                         </div>
+                        
+                     </div>
+                </div>
+          
+            </div>
+
+
+            <div class=" bg-white w-[27vw] h-[95vh] flex flex-col items-center justify-center gap-[2vw] max-sm:w-[92vw] max-sm:h-[75vh] max-lg:w-[48vw] max-lg:h-[50vh]  ">
+                <div class="flex items-center justify-between border-b border-gray-200 py-3 w-[23vw] max-sm:w-[80vw]  max-lg:w-[42vw]">
+                    <h2 class="text-[1.2vw] font-bold text-gray-900 max-sm:text-[2vh] max-lg:text-[1.5vh]">LAPTOPS</h2>
+                    <a href="#" class="text-sm font-medium text-gray-600 hover:underline hover:text-[#fd5634]">View all</a>
+                  </div>
+               
+                <div id="pg4img1" class="w-[23vw] h-[30vh] text-center max-sm:w-[80vw] max-sm:h-[25vh] max-lg:w-[42vw]  max-lg:h-[15vh]">
+                    <div class=" text-center mt-[11vh] ml-[1vw] w-[6vw] text-white bg-[#C00] max-sm:w-[20vw]  max-lg:mt-[5vh]  max-lg:w-[7vh]">GADGETS</div>
+                    <div class="text-white flex flex-col  flex items-center justify-center ">
+                         <strong>6 Wealth Building Alternatives Without Buying Stocks</strong> 
+                         <span>by John Doe-July 31, 2021 </span>
+                    </div>
+                </div>
+
+                <div class="w-[23vw] h-[45vh]  flex flex-col gap-[2vw]  max-sm:w-[80vw] max-sm:h-[35vh]  max-lg:w-[42vw]  max-lg:h-[26vh]">
+                    <div class="flex flex-row gap-[1vw]  max-sm:w-[80vw] ">
+                        <img src="pg4img2.jpg" class="w-[10vw] h-[12vh] object-fit max-sm:w-[32vw] max-sm:h-[11vh] max-lg:w-[15vw] max-lg:h-[7vh]">
+                        <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] flex flex-col max-sm:w-[80vw] max-lg:w-auto">
+                            <strong>13 PlayStation 5 Tips to Get the Most Out</strong>
+                            <span class="text-gray-400">July 31, 2021</span>
+                         </div>
+                     </div>
+                     <div class="flex flex-row gap-[1vw] max-sm:w-[80vw]">
+                        <img src="pg4img3.jpg" class="w-[10vw] h-[12vh] object-fit max-sm:w-[32vw] max-sm:h-[11vh] max-lg:w-[15vw] max-lg:h-[7vh]">
+                        <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] flex flex-col max-sm:w-[80vw] max-lg:w-auto">
+                            <strong>13 PlayStation 5 Tips to Get the Most Out</strong>
+                            <span class="text-gray-400">July 31, 2021</span>
+                         </div>
+                       
+                     </div>
+                     <div class="flex flex-row gap-[1vw] max-sm:w-[80vw]">
+                        <img src="pg4img4.jpg" class="w-[10vw] h-[12vh] object-fit max-sm:w-[32vw] max-sm:h-[11vh] max-lg:w-[15vw] max-lg:h-[7vh]">
+                        <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] flex flex-col max-sm:w-[80vw] max-lg:w-auto">
+                            <strong>13 PlayStation 5 Tips to Get the Most Out</strong>
+                            <span class="text-gray-400">July 31, 2021</span>
+                         </div>
+                        
+                     </div>
+                </div>
+          
+            </div>
+        </div>
+
+        <!-- pg3 -->
+          <div class="bg-white w-[55vw] h-[220vh] mt-[3vw] flex flex-col gap-[2vw] items-center justify-center max-sm:mt-[105vh] max-sm:gap-[2vh] max-sm:h-[220vh] max-sm:w-[92vw] max-lg:h-[138vh] max-lg:w-[96vw]">
+            <div class="flex items-center justify-between border-b border-gray-200 py-2 w-[50vw] max-sm:w-[80vw] max-lg:w-[90vw]">
+                <h2 class="text-[1.2vw] font-bold text-gray-900 max-sm:text-[2vh] max-lg:text-[1.5vh]">MOBILE</h2>
+                <a href="#" class="text-sm font-medium text-gray-600 hover:underline hover:text-[#fd5634]">View all</a>
+              </div>
+            <div class=" w-[50vw] h-[30vh] flex flex-row items-center justify-center gap-[1vw] max-sm:flex-col max-sm:w-[80vw] max-lg:w-[90vw] max-lg:h-[20vh] max-sm:h-auto ">
+                <img src="pg5img1.jpg" class="w-[16vw] h-[26vh] max-sm:w-[80vw] max-lg:w-[30vw] max-lg:h-[15vh]">
+
+                <div class="flex flex-col justify-center gap-[0.5vw] max-sm:gap-[1vh]">
+                    <div class="text-[1.5vw] w-[33vw]  hover:text-[#fd5634] cursor-pointer max-sm:text-[2.2vh] max-sm:w-[80vw] max-lg:text-[1.7vh] max-lg:w-auto">
+                         <strong>11 of Best Laptops Evaluated Based on Budget</strong>
+                    </div>
+                    <div class=" w-[33vw] text-gray-400 max-sm:w-[80vw] max-lg:w-auto">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been…
+                    </div>
+                 <span class="text-gray-400">by <span class="text-[#fd5634]">John Doe</span>-August 02, 2021</span>
+                </div>
+                
+            </div>
+            <div class=" w-[50vw] h-[30vh] flex flex-row items-center justify-center gap-[1vw] max-sm:flex-col max-sm:w-[80vw] max-lg:w-[90vw] max-lg:h-[20vh] max-sm:h-auto ">
+                <img src="pg5img1.jpg" class="w-[16vw] h-[26vh] max-sm:w-[80vw] max-lg:w-[30vw] max-lg:h-[15vh]">
+
+                <div class="flex flex-col justify-center gap-[0.5vw] max-sm:gap-[1vh]">
+                    <div class="text-[1.5vw] w-[33vw]  hover:text-[#fd5634] cursor-pointer max-sm:text-[2.2vh] max-sm:w-[80vw] max-lg:text-[1.7vh] max-lg:w-auto">
+                         <strong>11 of Best Laptops Evaluated Based on Budget</strong>
+                    </div>
+                    <div class=" w-[33vw] text-gray-400 max-sm:w-[80vw] max-lg:w-auto">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been…
+                    </div>
+                 <span class="text-gray-400">by <span class="text-[#fd5634]">John Doe</span>-August 02, 2021</span>
+                </div>
+                
+            </div>
+            <div class=" w-[50vw] h-[30vh] flex flex-row items-center justify-center gap-[1vw] max-sm:flex-col max-sm:w-[80vw] max-lg:w-[90vw] max-lg:h-[20vh] max-sm:h-auto ">
+                <img src="pg5img1.jpg" class="w-[16vw] h-[26vh] max-sm:w-[80vw] max-lg:w-[30vw] max-lg:h-[15vh]">
+
+                <div class="flex flex-col justify-center gap-[0.5vw] max-sm:gap-[1vh]">
+                    <div class="text-[1.5vw] w-[33vw]  hover:text-[#fd5634] cursor-pointer max-sm:text-[2.2vh] max-sm:w-[80vw] max-lg:text-[1.7vh] max-lg:w-auto">
+                         <strong>11 of Best Laptops Evaluated Based on Budget</strong>
+                    </div>
+                    <div class=" w-[33vw] text-gray-400 max-sm:w-[80vw] max-lg:w-auto">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been…
+                    </div>
+                 <span class="text-gray-400">by <span class="text-[#fd5634]">John Doe</span>-August 02, 2021</span>
+                </div>
+                
+            </div>
+            <div class=" w-[50vw] h-[30vh] flex flex-row items-center justify-center gap-[1vw] max-sm:flex-col max-sm:w-[80vw] max-lg:w-[90vw] max-lg:h-[20vh] max-sm:h-auto ">
+                <img src="pg5img1.jpg" class="w-[16vw] h-[26vh] max-sm:w-[80vw] max-lg:w-[30vw] max-lg:h-[15vh]">
+
+                <div class="flex flex-col justify-center gap-[0.5vw] max-sm:gap-[1vh]">
+                    <div class="text-[1.5vw] w-[33vw]  hover:text-[#fd5634] cursor-pointer max-sm:text-[2.2vh] max-sm:w-[80vw] max-lg:text-[1.7vh] max-lg:w-auto">
+                         <strong>11 of Best Laptops Evaluated Based on Budget</strong>
+                    </div>
+                    <div class=" w-[33vw] text-gray-400 max-sm:w-[80vw] max-lg:w-auto">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been…
+                    </div>
+                 <span class="text-gray-400">by <span class="text-[#fd5634]">John Doe</span>-August 02, 2021</span>
+                </div>
+                
+            </div>
+            <div class=" w-[50vw] h-[30vh] flex flex-row items-center justify-center gap-[1vw] max-sm:flex-col max-sm:w-[80vw] max-lg:w-[90vw] max-lg:h-[20vh] max-sm:h-auto ">
+                <img src="pg5img1.jpg" class="w-[16vw] h-[26vh] max-sm:w-[80vw] max-lg:w-[30vw] max-lg:h-[15vh]">
+
+                <div class="flex flex-col justify-center gap-[0.5vw] max-sm:gap-[1vh]">
+                    <div class="text-[1.5vw] w-[33vw]  hover:text-[#fd5634] cursor-pointer max-sm:text-[2.2vh] max-sm:w-[80vw] max-lg:text-[1.7vh] max-lg:w-auto">
+                         <strong>11 of Best Laptops Evaluated Based on Budget</strong>
+                    </div>
+                    <div class=" w-[33vw] text-gray-400 max-sm:w-[80vw] max-lg:w-auto">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been…
+                    </div>
+                 <span class="text-gray-400">by <span class="text-[#fd5634]">John Doe</span>-August 02, 2021</span>
+                </div>
+                
+            </div>
+            <div class=" w-[50vw] h-[30vh] flex flex-row items-center justify-center gap-[1vw] max-sm:flex-col max-sm:w-[80vw] max-lg:w-[90vw] max-lg:h-[20vh] max-sm:h-auto ">
+                <img src="pg5img1.jpg" class="w-[16vw] h-[26vh] max-sm:w-[80vw] max-lg:w-[30vw] max-lg:h-[15vh]">
+
+                <div class="flex flex-col justify-center gap-[0.5vw] max-sm:gap-[1vh]">
+                    <div class="text-[1.5vw] w-[33vw]  hover:text-[#fd5634] cursor-pointer max-sm:text-[2.2vh] max-sm:w-[80vw] max-lg:text-[1.7vh] max-lg:w-auto">
+                         <strong>11 of Best Laptops Evaluated Based on Budget</strong>
+                    </div>
+                    <div class=" w-[33vw] text-gray-400 max-sm:w-[80vw] max-lg:w-auto">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been…
+                    </div>
+                 <span class="text-gray-400">by <span class="text-[#fd5634]">John Doe</span>-August 02, 2021</span>
+                </div>
+                
+            </div>
+
+        </div>
+
+</div>
+
+    <div id="right" class=" mt-[2vw] flex flex-col gap-[2vw] items-center sticky">
+        
+            <div class="bg-white w-[24vw] h-[40vh] flex flex-col justify-center items-center max-sm:flex-row gap-[2vw] max-sm:flex-col max-lg:w-[96vw] max-lg:h-[15vh] max-sm:h-[20vh] max-sm:w-[92vw]">
+
+                <div class="flex items-center justify-between border-b border-gray-200 py-3 w-[23vw] max-sm:w-[80vw] mt-[-2vw] max-lg:w-[90vw]">
+                    <h2 class="text-[1.1vw] font-bold text-gray-900 max-sm:text-[2vh] max-lg:text-[1.5vh]">FOLLOW US</h2>
+                    <a href="#" class="text-sm font-medium text-gray-600 hover:underline hover:text-[#fd5634]">View all</a>
+                  </div>
+                  <div class="flex flex-col gap-[1vw] max-lg:flex-row max-sm:flex-col">
+                <div class=" w-auto h-auto flex flex-row gap-[1vw] items-center justify-center max-sm:w-auto max-sm:h-auto max-sm:flex-row ">
+                 
+                    <div class="max-lg:text-[1.2vh] w-[10vw] h-[7vh]  rounded-[2px] bg-[#3b5999] text-white text-[1.2vw] flex items-center justify-center max-sm:w-[39vw] max-sm:h-[5vh] max-lg:w-[21.5vw] max-lg:h-[3vh] max-sm:text-[1.5vh]">
+                        Facebook
+                    </div>
+                    <div class="max-lg:text-[1.2vh] w-[10vw] h-[7vh]  rounded-[2px] bg-[#f80404] text-white text-[1.2vw] flex items-center justify-center max-sm:w-[39vw] max-sm:h-[5vh] max-lg:w-[21.5vw] max-lg:h-[3vh] max-sm:text-[1.5vh]">
+                        YouTube
+                    </div>
+                </div>
+                <div class=" max-lg:text-[1.2vh] w-auto h-auto flex flex-row gap-[1vw] items-center justify-center max-sm:w-auto max-sm:h-auto max-sm:flex-row ">
+                    <div class="max-lg:text-[1.2vh] w-[10vw] h-[7vh]  rounded-[2px] bg-black text-white text-[1.2vw] flex items-center justify-center max-sm:w-[39vw] max-sm:h-[5vh] max-lg:w-[21.5vw] max-lg:h-[3vh] max-sm:text-[1.5vh]">
+                        Twitter
+                    </div>
+                    <div class="max-lg:text-[1.2vh] w-[10vw] h-[7vh]  rounded-[2px] bg-[#e4405f] text-white text-[1.2vw] flex items-center justify-center max-sm:w-[39vw] max-sm:h-[5vh] max-lg:w-[21.5vw] max-lg:h-[3vh] max-sm:text-[1.5vh]">
+                        Instagram
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+
+        <div class="  bg-white  w-[24vw] h-[90vh] flex flex-col items-center justify-center gap-[1vw] max-sm:hidden sticky max-lg:hidden">
+            <div class="flex flex-row items-center justify-between border-b border-gray-200 py-2 w-[21vw] h-[6vh] ">
+                <h2 class="text-[1.1vw] font-bold text-gray-900">POPULAR POSTS</h2>
+                <a href="#" class="text-sm font-medium text-gray-600 hover:underline hover:text-[#fd5634]">View all</a>
+            </div>
+
+          
+                <div id="pg4img1" class="w-[21.5vw] h-[30vh]  text-center">
+                    <div class=" text-center mt-[11vh] ml-[1vw] w-[6vw] text-white bg-[#C00]">GADGETS</div>
+                    <div class="text-white flex flex-col  flex items-center justify-center ">
+                        <strong>6 Wealth Building Alternatives Without Buying Stocks</strong> 
+                         <span>by John Doe-July 31, 2021 </span>
+                    </div>
+                </div>
+
+                <div class="w-[21.5vw] h-[45vh]  flex flex-col gap-[1vw] ">
+                    <div class="flex flex-row gap-[1vw]">
+                        <img src="pg4img2.jpg" class="w-[10vw] h-[12vh] object-fit">
+                        <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] flex flex-col">
+                            <strong>13 PlayStation 5 Tips to Get the Most Out</strong>
+                            <span class="text-gray-400">July 31, 2021</span>
+                         </div>
+                     </div>
+                     <div class="flex flex-row gap-[1vw]">
+                        <img src="pg4img3.jpg" class="w-[10vw] h-[12vh] object-fit">
+                        <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] flex flex-col">
+                            <strong>13 PlayStation 5 Tips to Get the Most Out</strong>
+                            <span class="text-gray-400">July 31, 2021</span>
+                         </div>
+                       
+                     </div>
+                     <div class="flex flex-row gap-[1vw]">
+                        <img src="pg4img4.jpg" class="w-[10vw] h-[12vh] object-fit">
+                        <div class="hover:text-[#fd5634] cursor-pointer w-[15vw] flex flex-col">
+                            <strong>13 PlayStation 5 Tips to Get the Most Out</strong>
+                            <span class="text-gray-400">July 31, 2021</span>
+                         </div>
+                        
+                     </div>
+                </div>
+          
+         
+            </div>
+        </div>
+        </div>
+    </div>
+    
+</div>
+
+   
+</div>  
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

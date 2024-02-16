@@ -1,0 +1,62 @@
+
+
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.caption
+{
+     
+        position: absolute;
+        z-index: 1;
+}
+
+.img1
+{
+    position: relative;
+}
+
+
+
+
+
+
+#left
+{
+    border: black 1px solid;
+}
+
+#pg4img1
+{
+    background: url(pg4img1.jpg);
+    background-size: 23vw 30vh;
+    background-repeat: no-repeat;
+}
+
+nav{
+    z-index: 0;
+}
+
+
+@media not all and (min-width: 1024px){ 
+    #pg4img1
+    {
+        
+        background-size:42vw 15vh;
+        background-repeat: no-repeat;
+    }
+ }
+
+
+
+@media not all and (min-width: 640px) {
+    #pg4img1
+{
+    background: url(pg4img1.jpg);
+    background-size:80vw 30vh;
+    background-repeat: no-repeat;
+}
+}
